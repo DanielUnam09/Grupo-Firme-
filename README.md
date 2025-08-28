@@ -9,7 +9,7 @@ Ochoa Campos Ana Sofía. @soffochoa - <soffochoa@ciencias.unam.mx>
 Real Araiza Yamile @YamileRea - <yreal19@ciencias.unam.mx>
 
 # Profesora y ayudantes:
- Rosa Victoria Villa Padilla. <victoria_vp@ciencias.unam.mx>
+Rosa Victoria Villa Padilla. <victoria_vp@ciencias.unam.mx>
 
 Alvaro Ramírez López. <alvaro@ciencias.unam.mx>
 
