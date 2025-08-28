@@ -1,5 +1,5 @@
 # Modelado y programación
--Este repositorio esta hecho con el propósito de trabajar en todas las prácticas y  de la meteria de Modelado y Programación.
+-Este repositorio esta hecho con el propósito de trabajar en todas las prácticas y proyectos de la meteria de Modelado y Programación.
 
 # Equipo:
 -Aguirre Consuegra Sergio Daniel. @DanielUnam09 - <danielac9@ciencias.unam.mx>
