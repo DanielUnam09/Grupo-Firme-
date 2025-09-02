@@ -1,0 +1,727 @@
+=== INICIO DE SIMULACIÓN ===
+
+Bienvenido Alicia a Memeflix
+Bienvenido Alicia a Momazon Prime Video
+Bienvenido Alicia a Spootify
+Bienvenido Alicia a Thisney+
+Bienvenido Alicia a HVO Max
+Bienvenido Bob a Memeflix
+Bienvenido Bob a Momazon Prime Video
+Bienvenido Bob a Spootify
+Bienvenido Bob a Thisney+
+Bienvenido Bob a HVO Max
+Bienvenido César a Thisney+
+Bienvenido César a HVO Max
+Bienvenido Diego a HVO Max
+Bienvenido Diego a Momazon Prime Video
+Bienvenido Diego a Spootify
+Bienvenido Erika a Memeflix
+Bienvenido Erika a Spootify
+Bienvenido Erika a HVO Max
+Bienvenido Fausto a Thisney+
+Bienvenido Fausto a HVO Max
+
+--- MES 1 ---
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 1 meses usando Memeflix
+Te recomendamos: Stranger Things
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 1 meses usando Memeflix
+Te recomendamos: Stranger Things
+Bob paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Bob, llevas 1 meses usando Memeflix
+Te recomendamos: Stranger Things
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 1 meses usando Momazon Prime Video
+Te recomendamos: The Boys
+Bob paga $150.0 por el servicio de Momazon Prime Video versión premium
+Bob, llevas 1 meses usando Momazon Prime Video
+Te recomendamos: The Boys
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 1 meses usando Momazon Prime Video
+Te recomendamos: The Boys
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 1 meses usando Spootify
+Te recomendamos: Pop Hits
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 1 meses usando Spootify
+Te recomendamos: Pop Hits
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 1 meses usando Spootify
+Te recomendamos: Pop Hits
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 1 meses usando Spootify
+Te recomendamos: Pop Hits
+Alicia paga $130.0 por el servicio de Thisney+
+Alicia, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+Bob paga $130.0 por el servicio de Thisney+
+Bob, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+Fausto paga $130.0 por el servicio de Thisney+
+Fausto, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+César paga $130.0 por el servicio de Thisney+
+César, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+Erika paga $0.0 por el servicio de HVO Max
+Erika, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+Alicia paga $0.0 por el servicio de HVO Max
+Alicia, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+Bob paga $0.0 por el servicio de HVO Max
+Bob, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+Fausto paga $0.0 por el servicio de HVO Max
+Fausto, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+César paga $0.0 por el servicio de HVO Max
+César, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+Diego paga $0.0 por el servicio de HVO Max
+Diego, llevas 1 meses usando HVO Max
+Te recomendamos: Game of Thrones
+Saldos al final del mes 1:
+Alicia: $14440.0
+Bob: $1840.0
+César: $4870.0
+Diego: $8850.0
+Erika: $9800.0
+Fausto: $4870.0
+
+--- MES 2 ---
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 2 meses usando Memeflix
+Te recomendamos: The Crown
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 2 meses usando Memeflix
+Te recomendamos: The Crown
+Bob paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Bob, llevas 2 meses usando Memeflix
+Te recomendamos: The Crown
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 2 meses usando Momazon Prime Video
+Te recomendamos: The Marvelous Mrs. Maisel
+Bob paga $150.0 por el servicio de Momazon Prime Video versión premium
+Bob, llevas 2 meses usando Momazon Prime Video
+Te recomendamos: The Marvelous Mrs. Maisel
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 2 meses usando Momazon Prime Video
+Te recomendamos: The Marvelous Mrs. Maisel
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 2 meses usando Spootify
+Te recomendamos: Rock Classics
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 2 meses usando Spootify
+Te recomendamos: Rock Classics
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 2 meses usando Spootify
+Te recomendamos: Rock Classics
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 2 meses usando Spootify
+Te recomendamos: Rock Classics
+Alicia paga $130.0 por el servicio de Thisney+
+Alicia, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+Bob paga $130.0 por el servicio de Thisney+
+Bob, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+Fausto paga $130.0 por el servicio de Thisney+
+Fausto, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+César paga $130.0 por el servicio de Thisney+
+César, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+Erika paga $0.0 por el servicio de HVO Max
+Erika, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+Alicia paga $0.0 por el servicio de HVO Max
+Alicia, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+Bob paga $0.0 por el servicio de HVO Max
+Bob, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+Fausto paga $0.0 por el servicio de HVO Max
+Fausto, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+César paga $0.0 por el servicio de HVO Max
+César, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+Diego paga $0.0 por el servicio de HVO Max
+Diego, llevas 2 meses usando HVO Max
+Te recomendamos: Succession
+Saldos al final del mes 2:
+Alicia: $13880.0
+Bob: $1280.0
+César: $4740.0
+Diego: $8700.0
+Erika: $9600.0
+Fausto: $4740.0
+
+--- MES 3 ---
+Lamentamos que dejes el servicio Erika de HVO Max
+Bienvenido Erika a Thisney+
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 3 meses usando Memeflix
+Te recomendamos: Ozark
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 3 meses usando Memeflix
+Te recomendamos: Ozark
+Bob paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Bob, llevas 3 meses usando Memeflix
+Te recomendamos: Ozark
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 3 meses usando Momazon Prime Video
+Te recomendamos: Jack Ryan
+Bob paga $150.0 por el servicio de Momazon Prime Video versión premium
+Bob, llevas 3 meses usando Momazon Prime Video
+Te recomendamos: Jack Ryan
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 3 meses usando Momazon Prime Video
+Te recomendamos: Jack Ryan
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 3 meses usando Spootify
+Te recomendamos: Jazz Essentials
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 3 meses usando Spootify
+Te recomendamos: Jazz Essentials
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 3 meses usando Spootify
+Te recomendamos: Jazz Essentials
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 3 meses usando Spootify
+Te recomendamos: Jazz Essentials
+Erika paga $130.0 por el servicio de Thisney+
+Erika, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+Alicia paga $130.0 por el servicio de Thisney+
+Alicia, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+Bob paga $130.0 por el servicio de Thisney+
+Bob, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+Fausto paga $130.0 por el servicio de Thisney+
+Fausto, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+César paga $130.0 por el servicio de Thisney+
+César, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+Alicia paga $0.0 por el servicio de HVO Max
+Alicia, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Bob paga $0.0 por el servicio de HVO Max
+Bob, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Fausto paga $0.0 por el servicio de HVO Max
+Fausto, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+César paga $0.0 por el servicio de HVO Max
+César, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Diego paga $0.0 por el servicio de HVO Max
+Diego, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Saldos al final del mes 3:
+Alicia: $13320.0
+Bob: $720.0
+César: $4610.0
+Diego: $8550.0
+Erika: $9270.0
+Fausto: $4610.0
+
+--- MES 4 ---
+Lamentamos que dejes el servicio Bob de Thisney+
+Lamentamos que dejes el servicio Bob de HVO Max
+Lamentamos que dejes el servicio Bob de Memeflix
+Lamentamos que dejes el servicio Bob de Momazon Prime Video
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 4 meses usando Memeflix
+Te recomendamos: Black Mirror
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 4 meses usando Memeflix
+Te recomendamos: Black Mirror
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 4 meses usando Momazon Prime Video
+Te recomendamos: The Grand Tour
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 4 meses usando Momazon Prime Video
+Te recomendamos: The Grand Tour
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 4 meses usando Spootify
+Te recomendamos: Electronic Beats
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 4 meses usando Spootify
+Te recomendamos: Electronic Beats
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 4 meses usando Spootify
+Te recomendamos: Electronic Beats
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 4 meses usando Spootify
+Te recomendamos: Electronic Beats
+Erika paga $130.0 por el servicio de Thisney+
+Erika, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+Fausto paga $160.0 por el servicio de Thisney+
+Fausto, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+César paga $160.0 por el servicio de Thisney+
+César, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
+Fausto paga $140.0 por el servicio de HVO Max
+Fausto, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
+César paga $140.0 por el servicio de HVO Max
+César, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
+Saldos al final del mes 4:
+Alicia: $12590.0
+Bob: $640.0
+César: $4310.0
+Diego: $8260.0
+Erika: $8940.0
+Fausto: $4310.0
+
+--- MES 5 ---
+Bienvenido de vuelta Fausto a Thisney+
+Bienvenido de vuelta Fausto a HVO Max
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 5 meses usando Memeflix
+Te recomendamos: House of Cards
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 5 meses usando Memeflix
+Te recomendamos: House of Cards
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 5 meses usando Momazon Prime Video
+Te recomendamos: Fleabag
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 5 meses usando Momazon Prime Video
+Te recomendamos: Fleabag
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 5 meses usando Spootify
+Te recomendamos: Hip Hop Central
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 5 meses usando Spootify
+Te recomendamos: Hip Hop Central
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 5 meses usando Spootify
+Te recomendamos: Hip Hop Central
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 5 meses usando Spootify
+Te recomendamos: Hip Hop Central
+Erika paga $130.0 por el servicio de Thisney+
+Erika, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
+Fausto paga $160.0 por el servicio de Thisney+
+Fausto, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
+César paga $160.0 por el servicio de Thisney+
+César, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
+Fausto paga $140.0 por el servicio de HVO Max
+Fausto, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
+César paga $140.0 por el servicio de HVO Max
+César, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
+Saldos al final del mes 5:
+Alicia: $11860.0
+Bob: $560.0
+César: $4010.0
+Diego: $7970.0
+Erika: $8610.0
+Fausto: $4010.0
+
+--- MES 6 ---
+Bienvenido Diego a Thisney+
+Lamentamos que dejes el servicio Erika de Thisney+
+Lamentamos que dejes el servicio Erika de Memeflix
+Lamentamos que dejes el servicio Erika de Spootify
+Lamentamos que dejes el servicio Fausto de Thisney+
+Lamentamos que dejes el servicio Fausto de HVO Max
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 6 meses usando Memeflix
+Te recomendamos: Narcos
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 6 meses usando Momazon Prime Video
+Te recomendamos: The Expanse
+Diego paga $150.0 por el servicio de Momazon Prime Video versión premium
+Diego, llevas 6 meses usando Momazon Prime Video
+Te recomendamos: The Expanse
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 6 meses usando Spootify
+Te recomendamos: Indie Mix
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 6 meses usando Spootify
+Te recomendamos: Indie Mix
+Diego paga $0.0 por el servicio de Spootify versión gratis
+Diego, llevas 6 meses usando Spootify
+Te recomendamos: Indie Mix
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 6 meses usando Thisney+
+Te recomendamos: Moon Knight
+César paga $160.0 por el servicio de Thisney+
+César, llevas 6 meses usando Thisney+
+Te recomendamos: Moon Knight
+Diego paga $130.0 por el servicio de Thisney+
+Diego, llevas 1 meses usando Thisney+
+Te recomendamos: The Mandalorian
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 6 meses usando HVO Max
+Te recomendamos: Westworld
+César paga $140.0 por el servicio de HVO Max
+César, llevas 6 meses usando HVO Max
+Te recomendamos: Westworld
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 6 meses usando HVO Max
+Te recomendamos: Westworld
+Saldos al final del mes 6:
+Alicia: $11130.0
+Bob: $480.0
+César: $3710.0
+Diego: $7550.0
+Erika: $8610.0
+Fausto: $4010.0
+
+--- MES 7 ---
+Bienvenido César a Spootify
+Bienvenido Diego a Memeflix
+Lamentamos que dejes el servicio Diego de Spootify
+Bienvenido de vuelta Diego a Spootify
+Lamentamos que dejes el servicio Diego de Momazon Prime Video
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 7 meses usando Memeflix
+Te recomendaciones: The Witcher
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 1 meses usando Memeflix
+Te recomendamos: Stranger Things
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 7 meses usando Momazon Prime Video
+Te recomendamos: Good Omens
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 7 meses usando Spootify
+Te recomendamos: Classical Masterpieces
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 7 meses usando Spootify
+Te recomendamos: Classical Masterpieces
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 1 meses usando Spootify
+Te recomendamos: Pop Hits
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 7 meses usando Spootify
+Te recomendamos: Classical Masterpieces
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 7 meses usando Thisney+
+Te recomendamos: She-Hulk
+César paga $160.0 por el servicio de Thisney+
+César, llevas 7 meses usando Thisney+
+Te recomendamos: She-Hulk
+Diego paga $130.0 por el servicio de Thisney+
+Diego, llevas 2 meses usando Thisney+
+Te recomendamos: WandaVision
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 7 meses usando HVO Max
+Te recomendamos: True Detective
+César paga $140.0 por el servicio de HVO Max
+César, llevas 7 meses usando HVO Max
+Te recomendamos: True Detective
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 7 meses usando HVO Max
+Te recomendamos: True Detective
+Saldos al final del mes 7:
+Alicia: $10400.0
+Bob: $400.0
+César: $3330.0
+Diego: $7080.0
+Erika: $8610.0
+Fausto: $4010.0
+
+--- MES 8 ---
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 8 meses usando Memeflix
+Te recomendamos: Dark
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 2 meses usando Memeflix
+Te recomendamos: The Crown
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 8 meses usando Momazon Prime Video
+Te recomendamos: Upload
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 8 meses usando Spootify
+Te recomendamos: Country Roads
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 8 meses usando Spootify
+Te recomendamos: Country Roads
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 2 meses usando Spootify
+Te recomendamos: Rock Classics
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 8 meses usando Spootify
+Te recomendamos: Country Roads
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 8 meses usando Thisney+
+Te recomendamos: Ms. Marvel
+César paga $160.0 por el servicio de Thisney+
+César, llevas 8 meses usando Thisney+
+Te recomendamos: Ms. Marvel
+Diego paga $130.0 por el servicio de Thisney+
+Diego, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 8 meses usando HVO Max
+Te recomendamos: The Last of Us
+César paga $140.0 por el servicio de HVO Max
+César, llevas 8 meses usando HVO Max
+Te recomendamos: The Last of Us
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 8 meses usando HVO Max
+Te recomendamos: The Last of Us
+Saldos al final del mes 8:
+Alicia: $9670.0
+Bob: $320.0
+César: $2950.0
+Diego: $6610.0
+Erika: $8610.0
+Fausto: $4010.0
+
+--- MES 9 ---
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 9 meses usando Memeflix
+Te recomendamos: Money Heist
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 3 meses usando Memeflix
+Te recomendamos: Ozark
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 9 meses usando Momazon Prime Video
+Te recomendamos: The Wheel of Time
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 9 meses usando Spootify
+Te recomendamos: Latin Vibes
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 9 meses usando Spootify
+Te recomendamos: Latin Vibes
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 3 meses usando Spootify
+Te recomendamos: Jazz Essentials
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 9 meses usando Spootify
+Te recomendamos: Latin Vibes
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 9 meses usando Thisney+
+Te recomendamos: Obi-Wan Kenobi
+César paga $160.0 por el servicio de Thisney+
+César, llevas 9 meses usando Thisney+
+Te recomendamos: Obi-Wan Kenobi
+Diego paga $160.0 por el servicio de Thisney+
+Diego, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 9 meses usando HVO Max
+Te recomendamos: House of the Dragon
+César paga $140.0 por el servicio de HVO Max
+César, llevas 9 meses usando HVO Max
+Te recomendamos: House of the Dragon
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 9 meses usando HVO Max
+Te recomendamos: House of the Dragon
+Saldos al final del mes 9:
+Alicia: $8940.0
+Bob: $240.0
+César: $2570.0
+Diego: $6110.0
+Erika: $8610.0
+Fausto: $4010.0
+
+--- MES 10 ---
+Bienvenido Erika a Momazon Prime Video
+Bienvenido de vuelta Erika a HVO Max
+Bienvenido de vuelta Erika a Thisney+
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 10 meses usando Memeflix
+Te recomendamos: Bridgerton
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 4 meses usando Memeflix
+Te recomendamos: Black Mirror
+Erika paga $150.0 por el servicio de Momazon Prime Video versión premium
+Erika, llevas 1 meses usando Momazon Prime Video
+Te recomendamos: The Boys
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 10 meses usando Momazon Prime Video
+Te recomendamos: Invincible
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 10 meses usando Spootify
+Te recomendamos: R&B Soul
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 10 meses usando Spootify
+Te recomendamos: R&B Soul
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 4 meses usando Spootify
+Te recomendamos: Electronic Beats
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 10 meses usando Spootify
+Te recomendamos: R&B Soul
+Erika paga $160.0 por el servicio de Thisney+
+Erika, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 10 meses usando Thisney+
+Te recomendamos: Andor
+César paga $160.0 por el servicio de Thisney+
+César, llevas 10 meses usando Thisney+
+Te recomendamos: Andor
+Diego paga $160.0 por el servicio de Thisney+
+Diego, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
+Erika paga $0.0 por el servicio de HVO Max
+Erika, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 10 meses usando HVO Max
+Te recomendamos: Mare of Easttown
+César paga $140.0 por el servicio de HVO Max
+César, llevas 10 meses usando HVO Max
+Te recomendamos: Mare of Easttown
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 10 meses usando HVO Max
+Te recomendamos: Mare of Easttown
+Saldos al final del mes 10:
+Alicia: $8210.0
+Bob: $160.0
+César: $2190.0
+Diego: $5610.0
+Erika: $8300.0
+Fausto: $4010.0
+
+--- MES 11 ---
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 11 meses usando Memeflix
+Te recomendamos: Squid Game
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 5 meses usando Memeflix
+Te recomendamos: House of Cards
+Erika paga $150.0 por el servicio de Momazon Prime Video versión premium
+Erika, llevas 2 meses usando Momazon Prime Video
+Te recomendamos: The Marvelous Mrs. Maisel
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 11 meses usando Momazon Prime Video
+Te recomendamos: The Terminal List
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 11 meses usando Spootify
+Te recomendamos: Alternative Rock
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 11 meses usando Spootify
+Te recomendamos: Alternative Rock
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 5 meses usando Spootify
+Te recomendamos: Hip Hop Central
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 11 meses usando Spootify
+Te recomendamos: Alternative Rock
+Erika paga $160.0 por el servicio de Thisney+
+Erika, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 11 meses usando Thisney+
+Te recomendamos: The Book of Boba Fett
+César paga $160.0 por el servicio de Thisney+
+César, llevas 11 meses usando Thisney+
+Te recomendamos: The Book of Boba Fett
+Diego paga $160.0 por el servicio de Thisney+
+Diego, llevas 6 meses usando Thisney+
+Te recomendamos: Moon Knight
+Erika paga $140.0 por el servicio de HVO Max
+Erika, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 11 meses usando HVO Max
+Te recomendamos: The Sopranos
+César paga $140.0 por el servicio de HVO Max
+César, llevas 11 meses usando HVO Max
+Te recomendamos: The Sopranos
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 11 meses usando HVO Max
+Te recomendamos: The Sopranos
+Saldos al final del mes 11:
+Alicia: $7480.0
+Bob: $80.0
+César: $1810.0
+Diego: $5110.0
+Erika: $7850.0
+Fausto: $4010.0
+
+--- MES 12 ---
+Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Alicia, llevas 12 meses usando Memeflix
+Te recomendamos: Wednesday
+Diego paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Diego, llevas 6 meses usando Memeflix
+Te recomendamos: Narcos
+Erika paga $150.0 por el servicio de Momazon Prime Video versión premium
+Erika, llevas 3 meses usando Momazon Prime Video
+Te recomendamos: Jack Ryan
+Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
+Alicia, llevas 12 meses usando Momazon Prime Video
+Te recomendamos: Rings of Power
+Alicia paga $80.0 por el servicio de Spootify versión premium
+Alicia, llevas 12 meses usando Spootify
+Te recomendamos: Reggaeton Hits
+Bob paga $80.0 por el servicio de Spootify versión premium
+Bob, llevas 12 meses usando Spootify
+Te recomendamos: Reggaeton Hits
+César paga $80.0 por el servicio de Spootify versión premium
+César, llevas 6 meses usando Spootify
+Te recomendamos: Indie Mix
+Diego paga $80.0 por el servicio de Spootify versión premium
+Diego, llevas 12 meses usando Spootify
+Te recomendamos: Reggaeton Hits
+Erika paga $160.0 por el servicio de Thisney+
+Erika, llevas 6 meses usando Thisney+
+Te recomendamos: Moon Knight
+Alicia paga $160.0 por el servicio de Thisney+
+Alicia, llevas 12 meses usando Thisney+
+Te recomendamos: What If...?
+César paga $160.0 por el servicio de Thisney+
+César, llevas 12 meses usando Thisney+
+Te recomendamos: What If...?
+Diego paga $160.0 por el servicio de Thisney+
+Diego, llevas 7 meses usando Thisney+
+Te recomendamos: She-Hulk
+Erika paga $140.0 por el servicio de HVO Max
+Erika, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
+Alicia paga $140.0 por el servicio de HVO Max
+Alicia, llevas 12 meses usando HVO Max
+Te recomendamos: Yellowjackets
+César paga $140.0 por el servicio de HVO Max
+César, llevas 12 meses usando HVO Max
+Te recomendamos: Yellowjackets
+Diego paga $140.0 por el servicio de HVO Max
+Diego, llevas 12 meses usando HVO Max
+Te recomendamos: Yellowjackets
+Saldos al final del mes 12:
+Alicia: $6750.0
+Bob: $0.0
+César: $1430.0
+Diego: $4610.0
+Erika: $7400.0
+Fausto: $4010.0
+
+=== FIN DE SIMULACIÓN ===

@@ -1,13 +1,20 @@
 import java.io.*;
 import java.util.*;
 
-public class Simulacion {
+/**
+ * Simula el comportamiento de clientes y servicios de streaming durante un año.
+ * Utiliza patrones de diseño para gestionar suscripciones y cobros mensuales.
+ */
+class Simulacion {
     private List<Cliente> clientes;
     private List<ServicioStreaming> servicios;
     private SistemaCobro sistemaCobro;
     private static PrintWriter writer;
     private int mesActual;
     
+    /**
+     * Crea una nueva simulación y prepara el archivo de salida.
+     */
     public Simulacion() {
         clientes = new ArrayList<>();
         servicios = new ArrayList<>();
@@ -21,6 +28,9 @@ public class Simulacion {
         }
     }
     
+    /**
+     * Agrega los clientes que participarán en la simulación.
+     */
     public void inicializarClientes() {
         clientes.add(new Cliente("Alicia", 15000));
         clientes.add(new Cliente("Bob", 2400));
@@ -30,6 +40,9 @@ public class Simulacion {
         clientes.add(new Cliente("Fausto", 5000));
     }
     
+    /**
+     * Agrega los servicios de streaming disponibles.
+     */
     public void inicializarServicios() {
         servicios.add(new Memeflix());
         servicios.add(new MomazonPrime());
@@ -38,6 +51,9 @@ public class Simulacion {
         servicios.add(new HVOMax());
     }
     
+    /**
+     * Ejecuta la simulación durante 12 meses y registra las transacciones.
+     */
     public void ejecutarSimulacion() {
         inicializarClientes();
         inicializarServicios();
@@ -56,6 +72,9 @@ public class Simulacion {
         writer.close();
     }
     
+    /**
+     * Asigna las suscripciones iniciales a cada cliente.
+     */
     private void configurarSuscripcionesIniciales() {
         Cliente alicia = clientes.get(0);
         Cliente bob = clientes.get(1);
@@ -103,6 +122,10 @@ public class Simulacion {
         fausto.suscribirse(hvo, new HVONormal());
     }
     
+    /**
+     * Procesa cobros y muestra saldos de los clientes en un mes.
+     * @param mes Mes a procesar.
+     */
     private void procesarMes(int mes) {
         escribirTransaccion("\n--- MES " + mes + " ---");
         
@@ -121,6 +144,10 @@ public class Simulacion {
         }
     }
     
+    /**
+     * Aplica eventos especiales según el mes (cancelaciones, nuevas suscripciones, etc).
+     * @param mes Mes a procesar.
+     */
     private void procesarEventosEspeciales(int mes) {
         Cliente bob = clientes.get(1);
         Cliente cesar = clientes.get(2);
@@ -180,14 +207,16 @@ public class Simulacion {
                 diego.cancelarSuscripcion(momazon);
                 break;
                 
-            case 5: // Fausto cancela después de 3 meses y contrata Memeflix
-                for (ServicioStreaming servicio : new ArrayList<>(fausto.getServiciosActivos())) {
-                    fausto.cancelarSuscripcion(servicio);
+            case 8: // Fausto cancela después de 3 meses y contrata Memeflix
+                if (mes == 4) {
+                    for (ServicioStreaming servicio : new ArrayList<>(fausto.getServiciosActivos())) {
+                        fausto.cancelarSuscripcion(servicio);
+                    }
+                    fausto.suscribirse(memeflix, new MemeflixUnDispositivo());
                 }
-                fausto.suscribirse(memeflix, new MemeflixUnDispositivo());
                 break;
                 
-            case 8:
+            case 5:
                 // Fausto contrata nuevamente Thisney+ y HVO Max
                 fausto.suscribirse(thisney, new ThisneyNormal());
                 fausto.suscribirse(hvo, new HVONormal());
@@ -202,6 +231,10 @@ public class Simulacion {
         }
     }
     
+    /**
+     * Imprime y guarda una transacción.
+     * @param mensaje Texto a registrar.
+     */
     public static void escribirTransaccion(String mensaje) {
         System.out.println(mensaje);
         if (writer != null) {
