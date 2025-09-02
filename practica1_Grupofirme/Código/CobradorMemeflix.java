@@ -1,0 +1,18 @@
+public class CobradorMemeflix implements EstrategiaCobro {
+    public double calcularCosto(TipoSuscripcion tipo, int mes) {
+        if (tipo instanceof MemeflixUnDispositivo) return 120.0;
+        if (tipo instanceof MemeflixDosDispositivos) return 170.0;
+        if (tipo instanceof MemeflixCuatroDispositivos) return 200.0;
+        return 0.0;
+    }
+    
+    public boolean procesarCobro(Cliente cliente, ServicioStreaming servicio, TipoSuscripcion tipo, double costo) {
+        if (cliente.descontarSaldo(costo)) {
+            String mensaje = cliente.getNombre() + " paga $" + costo + " por el servicio de " + 
+                           servicio.getNombre() + " para " + tipo.getNombre();
+            Simulacion.escribirTransaccion(mensaje);
+            return true;
+        }
+        return false;
+    }
+}
