@@ -1,6 +1,5 @@
 /**
  * Interfaz Observer para el patrón Observer.
- * Define el método para recibir notificaciones de cambios o eventos.
  */
 public interface Observer {
     /**

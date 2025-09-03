@@ -18,5 +18,5 @@ public interface EstrategiaCobro {
      * @param costo Monto a cobrar.
      * @return true si el cobro fue exitoso, false en caso contrario.
      */
-    boolean procesarCobro(Cliente cliente, ServicioStreaming servicio, TipoSuscripcion tipo, double costo);
+    public boolean procesarCobro(Cliente cliente, ServicioStreaming servicio, TipoSuscripcion tipo, double costo);
 }

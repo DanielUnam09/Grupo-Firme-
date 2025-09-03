@@ -1,4 +1,5 @@
 import java.util.*;
+
 /**
  * Clase abstracta que representa un servicio de streaming.
  * Implementa el patrón Observer y define la lógica común para todos los servicios.
@@ -6,8 +7,8 @@ import java.util.*;
 public abstract class ServicioStreaming implements Subject {
     protected String nombre;
     protected List<Observer> observers;
-    protected Map<Cliente, Integer> mesesContratados;
-    protected Map<Cliente, TipoSuscripcion> tiposSuscripcion;
+    protected List<Cliente> clientesActivos;
+    protected List<TipoSuscripcion> tiposSuscripcion;
     
     /**
      * Constructor de ServicioStreaming.
@@ -16,8 +17,8 @@ public abstract class ServicioStreaming implements Subject {
     public ServicioStreaming(String nombre) {
         this.nombre = nombre;
         this.observers = new ArrayList<>();
-        this.mesesContratados = new HashMap<>();
-        this.tiposSuscripcion = new HashMap<>();
+        this.clientesActivos = new ArrayList<>();
+        this.tiposSuscripcion = new ArrayList<>();
     }
     
     /**
@@ -25,7 +26,9 @@ public abstract class ServicioStreaming implements Subject {
      * @param observer Observer a agregar.
      */
     public void agregarObserver(Observer observer) {
-        observers.add(observer);
+        if (!observers.contains(observer)) {
+            observers.add(observer);
+        }
     }
     
     /**
@@ -57,8 +60,8 @@ public abstract class ServicioStreaming implements Subject {
         }
         
         agregarObserver(cliente);
-        mesesContratados.put(cliente, cliente.getMesesSuscrito(this));
-        tiposSuscripcion.put(cliente, tipo);
+        clientesActivos.add(cliente);
+        tiposSuscripcion.add(tipo);
     }
     
     /**
@@ -66,9 +69,12 @@ public abstract class ServicioStreaming implements Subject {
      * @param cliente Cliente a cancelar.
      */
     public void cancelarCliente(Cliente cliente) {
-        removerObserver(cliente);
-        mesesContratados.remove(cliente);
-        tiposSuscripcion.remove(cliente);
+        int index = clientesActivos.indexOf(cliente);
+        if (index != -1) {
+            removerObserver(cliente);
+            clientesActivos.remove(index);
+            tiposSuscripcion.remove(index);
+        }
     }
     
     /**
@@ -77,9 +83,20 @@ public abstract class ServicioStreaming implements Subject {
      * @param nuevoTipo Nuevo tipo de suscripción.
      */
     public void cambiarTipoSuscripcion(Cliente cliente, TipoSuscripcion nuevoTipo) {
-        if (tiposSuscripcion.containsKey(cliente) && nuevoTipo.esCompatible(nombre)) {
-            tiposSuscripcion.put(cliente, nuevoTipo);
+        int index = clientesActivos.indexOf(cliente);
+        if (index != -1 && nuevoTipo.esCompatible(nombre)) {
+            tiposSuscripcion.set(index, nuevoTipo);
         }
+    }
+    
+    /**
+     * Obtiene el tipo de suscripción de un cliente.
+     * @param cliente Cliente a consultar.
+     * @return Tipo de suscripción o null si no está suscrito.
+     */
+    public TipoSuscripcion getTipoSuscripcion(Cliente cliente) {
+        int index = clientesActivos.indexOf(cliente);
+        return index != -1 ? tiposSuscripcion.get(index) : null;
     }
     
     /**
@@ -88,28 +105,32 @@ public abstract class ServicioStreaming implements Subject {
      * @param sistema Sistema de cobro a utilizar.
      */
     public void cobrarMensualidad(SistemaCobro sistema) {
-        List<Cliente> clientesParaEliminar = new ArrayList<>();
+        List<Integer> indicesParaEliminar = new ArrayList<>();
         
-        for (Map.Entry<Cliente, TipoSuscripcion> entry : tiposSuscripcion.entrySet()) {
-            Cliente cliente = entry.getKey();
-            TipoSuscripcion tipo = entry.getValue();
-            int mes = mesesContratados.get(cliente) + 1;
+        // Iterar usando índices para evitar problemas de concurrencia
+        for (int i = 0; i < clientesActivos.size(); i++) {
+            Cliente cliente = clientesActivos.get(i);
+            TipoSuscripcion tipo = tiposSuscripcion.get(i);
             
-            if (sistema.cobrar(cliente, this, tipo, mes)) {
-                // Pago exitoso
-                mesesContratados.put(cliente, mes);
+            // CORRECCIÓN CRÍTICA: Calcular el mes que se va a cobrar (actual + 1)
+            // pero usar los meses actuales para el cálculo del precio
+            int mesesHistoricos = cliente.getMesesSuscrito(this);
+            int mesQueSeCobrara = mesesHistoricos + 1;
+            
+            if (sistema.cobrar(cliente, this, tipo, mesQueSeCobrara)) {
+                // Pago exitoso - AHORA sí incrementar el contador
                 cliente.incrementarMesesSuscrito(this);
                 
-                // Notificar progreso y recomendación
-                String mensajeProgreso = cliente.getNombre() + ", llevas " + mes + 
+                // Notificar progreso y recomendación con el mes actualizado
+                String mensajeProgreso = cliente.getNombre() + ", llevas " + mesQueSeCobrara + 
                                        " meses usando " + nombre;
                 cliente.actualizar(mensajeProgreso);
                 
-                String recomendacion = getRecomendacion(mes);
+                String recomendacion = getRecomendacion(mesQueSeCobrara);
                 cliente.actualizar(recomendacion);
             } else {
-                // No pudo pagar, pierde suscripción
-                clientesParaEliminar.add(cliente);
+                // No pudo pagar, marcar para eliminación
+                indicesParaEliminar.add(i);
                 String mensaje = cliente.getNombre() + " no pudo pagar " + nombre + 
                                " y perdió la suscripción";
                 Simulacion.escribirTransaccion(mensaje);
@@ -119,9 +140,14 @@ public abstract class ServicioStreaming implements Subject {
             }
         }
         
-        // Eliminar clientes que no pudieron pagar
-        for (Cliente cliente : clientesParaEliminar) {
-            cancelarCliente(cliente);
+        // Eliminar clientes que no pudieron pagar (de mayor a menor índice)
+        for (int i = indicesParaEliminar.size() - 1; i >= 0; i--) {
+            int index = indicesParaEliminar.get(i);
+            Cliente cliente = clientesActivos.get(index);
+            
+            removerObserver(cliente);
+            clientesActivos.remove(index);
+            tiposSuscripcion.remove(index);
             cliente.getServiciosActivos().remove(this);
         }
     }
@@ -162,11 +188,15 @@ public abstract class ServicioStreaming implements Subject {
      * Obtiene el nombre del servicio de streaming.
      * @return Nombre del servicio.
      */
-    public String getNombre() { return nombre; }
+    public String getNombre() {
+        return nombre;
+    }
 
     /**
-     * Obtiene el mapa de tipos de suscripción por cliente.
-     * @return Mapa de clientes y sus tipos de suscripción.
+     * Obtiene la lista de clientes activos.
+     * @return Lista de clientes suscritos.
      */
-    public Map<Cliente, TipoSuscripcion> getTiposSuscripcion() { return tiposSuscripcion; }
+    public List<Cliente> getClientesActivos() {
+        return clientesActivos;
+    }
 }

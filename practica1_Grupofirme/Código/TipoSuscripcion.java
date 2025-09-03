@@ -13,5 +13,5 @@ public interface TipoSuscripcion {
      * @param nombreServicio Nombre del servicio a verificar.
      * @return true si es compatible, false en caso contrario.
      */
-    boolean esCompatible(String nombreServicio);
+    public boolean esCompatible(String nombreServicio);
 }

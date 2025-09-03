@@ -7,8 +7,9 @@ import java.util.*;
 public class Cliente implements Observer {
     private String nombre;
     private double saldo;
-    private Set<ServicioStreaming> serviciosActivos;
-    private Map<ServicioStreaming, Integer> mesesSuscrito;
+    private List<ServicioStreaming> serviciosActivos;
+    private List<ServicioStreaming> serviciosHistoricos; // Servicios a los que alguna vez se ha suscrito
+    private List<Integer> mesesPorServicio; // Meses correspondientes a serviciosHistoricos
 
     /**
      * Crea un nuevo cliente con un nombre y un saldo inicial.
@@ -19,8 +20,9 @@ public class Cliente implements Observer {
     public Cliente(String nombre, double saldo) {
         this.nombre = nombre;
         this.saldo = saldo;
-        this.serviciosActivos = new HashSet<>();
-        this.mesesSuscrito = new HashMap<>();
+        this.serviciosActivos = new ArrayList<>();
+        this.serviciosHistoricos = new ArrayList<>();
+        this.mesesPorServicio = new ArrayList<>();
     }
 
     /**
@@ -42,7 +44,7 @@ public class Cliente implements Observer {
         servicio.suscribirCliente(this, tipo);
         serviciosActivos.add(servicio);
 
-        boolean esRegreso = mesesSuscrito.containsKey(servicio);
+        boolean esRegreso = serviciosHistoricos.contains(servicio);
         String mensajeBienvenida = servicio.getMensajeBienvenida(this, esRegreso);
         actualizar(mensajeBienvenida);
     }
@@ -94,12 +96,16 @@ public class Cliente implements Observer {
      * @param servicio Servicio de streaming al que se le incrementa el contador de meses.
      */
     public void incrementarMesesSuscrito(ServicioStreaming servicio) {
-        mesesSuscrito.put(servicio, mesesSuscrito.getOrDefault(servicio, 0) + 1);
+        int index = serviciosHistoricos.indexOf(servicio);
+        if (index != -1) {
+            // Ya existe, incrementar
+            mesesPorServicio.set(index, mesesPorServicio.get(index) + 1);
+        } else {
+            // Primera vez, agregar
+            serviciosHistoricos.add(servicio);
+            mesesPorServicio.add(1);
+        }
     }
-
-    // ========================
-    // Getters
-    // ========================
 
     /**
      * Obtiene el nombre del cliente.
@@ -126,15 +132,16 @@ public class Cliente implements Observer {
      * @return Número de meses suscrito (0 si nunca ha estado suscrito).
      */
     public int getMesesSuscrito(ServicioStreaming servicio) {
-        return mesesSuscrito.getOrDefault(servicio, 0);
+        int index = serviciosHistoricos.indexOf(servicio);
+        return index != -1 ? mesesPorServicio.get(index) : 0;
     }
 
     /**
      * Obtiene los servicios de streaming a los que el cliente está suscrito actualmente.
      *
-     * @return Conjunto de servicios activos.
+     * @return Lista de servicios activos.
      */
-    public Set<ServicioStreaming> getServiciosActivos() {
+    public List<ServicioStreaming> getServiciosActivos() {
         return serviciosActivos;
     }
 }

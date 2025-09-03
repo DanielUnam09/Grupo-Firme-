@@ -11,6 +11,5 @@ public class Main {
         simulacion.ejecutarSimulacion();
         System.out.println("Simulación finalizada.");
         System.out.println("Resultados de la simulación guardados en 'simulacion_streaming.txt'");
-        System.out.println("Saldos de los clientes:");
     }
 }
