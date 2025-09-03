@@ -8,7 +8,7 @@ public interface EstrategiaCobro {
      * @param mes Mes actual de la suscripción.
      * @return Costo calculado para el cobro.
      */
-    double calcularCosto(TipoSuscripcion tipo, int mes);
+    public double calcularCosto(TipoSuscripcion tipo, int mes);
 
     /**
      * Procesa el cobro al cliente por el servicio y tipo de suscripción.

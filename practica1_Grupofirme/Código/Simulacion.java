@@ -202,10 +202,8 @@ public class Simulacion {
             case 6:
                 // Diego se suscribe a Thisney+ en el sexto mes
                 diego.suscribirse(thisney, new ThisneyNormal());
-                
-                // Fausto contrata nuevamente Thisney+ y HVO Max en el quinto mes
-                // (Este evento debería estar en el caso 5, pero según tu descripción original)
-                                // Fausto cancela todas sus suscripciones ANTES del cobro mensual
+
+                // Fausto cancela todas sus suscripciones ANTES del cobro mensual
                 List<ServicioStreaming> serviciosFausto = new ArrayList<>(fausto.getServiciosActivos());
                 for (ServicioStreaming servicio : serviciosFausto) {
                     fausto.cancelarSuscripcion(servicio);
