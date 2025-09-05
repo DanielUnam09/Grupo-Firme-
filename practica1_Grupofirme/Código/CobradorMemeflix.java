@@ -27,8 +27,9 @@ public class CobradorMemeflix implements EstrategiaCobro {
     public boolean procesarCobro(Cliente cliente, ServicioStreaming servicio, TipoSuscripcion tipo, double costo) {
         if (cliente.descontarSaldo(costo)) {
             String mensaje = cliente.getNombre() + " paga $" + costo + " por el servicio de " + 
-                           servicio.getNombre() + " para " + tipo.getNombre();
+                             servicio.getNombre() + " para " + tipo.getNombre();
             Simulacion.escribirTransaccion(mensaje);
+         
             return true;
         }
         return false;

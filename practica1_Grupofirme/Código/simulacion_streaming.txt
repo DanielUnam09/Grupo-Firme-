@@ -160,10 +160,7 @@ Erika: $9600.0
 Fausto: $4740.0
 
 --- MES 3 ---
-Lamentamos que dejes el servicio Erika de HVO Max
 Bienvenido Erika a Thisney+
-Lamentamos que dejes el servicio Fausto de Thisney+
-Lamentamos que dejes el servicio Fausto de HVO Max
 Bienvenido Fausto a Memeflix
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
 Alicia, llevas 3 meses usando Memeflix
@@ -207,6 +204,9 @@ Te recomendamos: Loki
 César paga $130.0 por el servicio de Thisney+
 César, llevas 3 meses usando Thisney+
 Te recomendamos: Loki
+Fausto paga $130.0 por el servicio de Thisney+
+Fausto, llevas 3 meses usando Thisney+
+Te recomendamos: Loki
 Erika paga $130.0 por el servicio de Thisney+
 Erika, llevas 1 meses usando Thisney+
 Te recomendamos: The Mandalorian
@@ -222,15 +222,24 @@ Te recomendamos: Euphoria
 Diego paga $0.0 por el servicio de HVO Max
 Diego, llevas 3 meses usando HVO Max
 Te recomendamos: Euphoria
+Erika paga $0.0 por el servicio de HVO Max
+Erika, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
+Fausto paga $0.0 por el servicio de HVO Max
+Fausto, llevas 3 meses usando HVO Max
+Te recomendamos: Euphoria
 Saldos al final del mes 3:
 Alicia: $13320.0
 Bob: $720.0
 César: $4610.0
 Diego: $8550.0
 Erika: $9270.0
-Fausto: $4620.0
+Fausto: $4490.0
 
 --- MES 4 ---
+Lamentamos que dejes el servicio Erika de HVO Max
+Lamentamos que dejes el servicio Fausto de Thisney+
+Lamentamos que dejes el servicio Fausto de HVO Max
 Lamentamos que dejes el servicio Bob de Thisney+
 Lamentamos que dejes el servicio Bob de HVO Max
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
@@ -290,7 +299,7 @@ Bob: $290.0
 César: $4310.0
 Diego: $8260.0
 Erika: $8940.0
-Fausto: $4500.0
+Fausto: $4370.0
 
 --- MES 5 ---
 Lamentamos que dejes el servicio Bob de Memeflix
@@ -333,9 +342,9 @@ Te recomendamos: Hawkeye
 Erika paga $130.0 por el servicio de Thisney+
 Erika, llevas 3 meses usando Thisney+
 Te recomendamos: Loki
-Fausto paga $130.0 por el servicio de Thisney+
-Fausto, llevas 3 meses usando Thisney+
-Te recomendamos: Loki
+Fausto paga $160.0 por el servicio de Thisney+
+Fausto, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
 Alicia paga $140.0 por el servicio de HVO Max
 Alicia, llevas 5 meses usando HVO Max
 Te recomendamos: Barry
@@ -345,28 +354,28 @@ Te recomendamos: Barry
 Diego paga $140.0 por el servicio de HVO Max
 Diego, llevas 5 meses usando HVO Max
 Te recomendamos: Barry
-Fausto paga $0.0 por el servicio de HVO Max
-Fausto, llevas 3 meses usando HVO Max
-Te recomendamos: Euphoria
+Fausto paga $140.0 por el servicio de HVO Max
+Fausto, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
 Saldos al final del mes 5:
 Alicia: $11860.0
 Bob: $210.0
 César: $4010.0
 Diego: $7970.0
 Erika: $8610.0
-Fausto: $4250.0
+Fausto: $3950.0
 
 --- MES 6 ---
 Bienvenido Diego a Thisney+
-Lamentamos que dejes el servicio Fausto de Memeflix
-Lamentamos que dejes el servicio Fausto de Thisney+
-Lamentamos que dejes el servicio Fausto de HVO Max
-Lamentamos que dejes el servicio Erika de Memeflix
-Lamentamos que dejes el servicio Erika de Spootify
-Lamentamos que dejes el servicio Erika de Thisney+
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
 Alicia, llevas 6 meses usando Memeflix
 Te recomendamos: Narcos
+Erika paga $200.0 por el servicio de Memeflix para 4 dispositivos
+Erika, llevas 6 meses usando Memeflix
+Te recomendamos: Narcos
+Fausto paga $120.0 por el servicio de Memeflix para 1 dispositivo
+Fausto, llevas 4 meses usando Memeflix
+Te recomendamos: Black Mirror
 Alicia paga $150.0 por el servicio de Momazon Prime Video versión premium
 Alicia, llevas 6 meses usando Momazon Prime Video
 Te recomendamos: The Expanse
@@ -382,12 +391,21 @@ Te recomendamos: Indie Mix
 Diego paga $0.0 por el servicio de Spootify versión gratis
 Diego, llevas 6 meses usando Spootify
 Te recomendamos: Indie Mix
+Erika paga $0.0 por el servicio de Spootify versión gratis
+Erika, llevas 6 meses usando Spootify
+Te recomendamos: Indie Mix
 Alicia paga $160.0 por el servicio de Thisney+
 Alicia, llevas 6 meses usando Thisney+
 Te recomendamos: Moon Knight
 César paga $160.0 por el servicio de Thisney+
 César, llevas 6 meses usando Thisney+
 Te recomendamos: Moon Knight
+Erika paga $160.0 por el servicio de Thisney+
+Erika, llevas 4 meses usando Thisney+
+Te recomendamos: The Falcon and Winter Soldier
+Fausto paga $160.0 por el servicio de Thisney+
+Fausto, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
 Diego paga $130.0 por el servicio de Thisney+
 Diego, llevas 1 meses usando Thisney+
 Te recomendamos: The Mandalorian
@@ -400,16 +418,25 @@ Te recomendamos: Westworld
 Diego paga $140.0 por el servicio de HVO Max
 Diego, llevas 6 meses usando HVO Max
 Te recomendamos: Westworld
+Fausto paga $140.0 por el servicio de HVO Max
+Fausto, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
 Saldos al final del mes 6:
 Alicia: $11130.0
 Bob: $130.0
 César: $3710.0
 Diego: $7550.0
-Erika: $8610.0
-Fausto: $4250.0
+Erika: $8250.0
+Fausto: $3530.0
 
 --- MES 7 ---
 Bienvenido César a Spootify
+Lamentamos que dejes el servicio Erika de Memeflix
+Lamentamos que dejes el servicio Erika de Spootify
+Lamentamos que dejes el servicio Erika de Thisney+
+Lamentamos que dejes el servicio Fausto de Memeflix
+Lamentamos que dejes el servicio Fausto de Thisney+
+Lamentamos que dejes el servicio Fausto de HVO Max
 Bienvenido Diego a Memeflix
 Lamentamos que dejes el servicio Diego de Spootify
 Bienvenido de vuelta Diego a Spootify
@@ -458,8 +485,8 @@ Alicia: $10400.0
 Bob: $50.0
 César: $3330.0
 Diego: $7080.0
-Erika: $8610.0
-Fausto: $4250.0
+Erika: $8250.0
+Fausto: $3530.0
 
 --- MES 8 ---
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
@@ -505,8 +532,8 @@ Alicia: $9670.0
 Bob: $50.0
 César: $2950.0
 Diego: $6610.0
-Erika: $8610.0
-Fausto: $4250.0
+Erika: $8250.0
+Fausto: $3530.0
 
 --- MES 9 ---
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
@@ -550,8 +577,8 @@ Alicia: $8940.0
 Bob: $50.0
 César: $2570.0
 Diego: $6110.0
-Erika: $8610.0
-Fausto: $4250.0
+Erika: $8250.0
+Fausto: $3530.0
 
 --- MES 10 ---
 Bienvenido Erika a Momazon Prime Video
@@ -588,8 +615,8 @@ Diego paga $160.0 por el servicio de Thisney+
 Diego, llevas 5 meses usando Thisney+
 Te recomendamos: Hawkeye
 Erika paga $160.0 por el servicio de Thisney+
-Erika, llevas 4 meses usando Thisney+
-Te recomendamos: The Falcon and Winter Soldier
+Erika, llevas 5 meses usando Thisney+
+Te recomendamos: Hawkeye
 Alicia paga $140.0 por el servicio de HVO Max
 Alicia, llevas 10 meses usando HVO Max
 Te recomendamos: Mare of Easttown
@@ -599,16 +626,16 @@ Te recomendamos: Mare of Easttown
 Diego paga $140.0 por el servicio de HVO Max
 Diego, llevas 10 meses usando HVO Max
 Te recomendamos: Mare of Easttown
-Erika paga $0.0 por el servicio de HVO Max
-Erika, llevas 3 meses usando HVO Max
-Te recomendamos: Euphoria
+Erika paga $140.0 por el servicio de HVO Max
+Erika, llevas 4 meses usando HVO Max
+Te recomendamos: The White Lotus
 Saldos al final del mes 10:
 Alicia: $8210.0
 Bob: $50.0
 César: $2190.0
 Diego: $5610.0
-Erika: $8300.0
-Fausto: $4250.0
+Erika: $7800.0
+Fausto: $3530.0
 
 --- MES 11 ---
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
@@ -642,8 +669,8 @@ Diego paga $160.0 por el servicio de Thisney+
 Diego, llevas 6 meses usando Thisney+
 Te recomendamos: Moon Knight
 Erika paga $160.0 por el servicio de Thisney+
-Erika, llevas 5 meses usando Thisney+
-Te recomendamos: Hawkeye
+Erika, llevas 6 meses usando Thisney+
+Te recomendamos: Moon Knight
 Alicia paga $140.0 por el servicio de HVO Max
 Alicia, llevas 11 meses usando HVO Max
 Te recomendamos: The Sopranos
@@ -654,15 +681,15 @@ Diego paga $140.0 por el servicio de HVO Max
 Diego, llevas 11 meses usando HVO Max
 Te recomendamos: The Sopranos
 Erika paga $140.0 por el servicio de HVO Max
-Erika, llevas 4 meses usando HVO Max
-Te recomendamos: The White Lotus
+Erika, llevas 5 meses usando HVO Max
+Te recomendamos: Barry
 Saldos al final del mes 11:
 Alicia: $7480.0
 Bob: $50.0
 César: $1810.0
 Diego: $5110.0
-Erika: $7850.0
-Fausto: $4250.0
+Erika: $7350.0
+Fausto: $3530.0
 
 --- MES 12 ---
 Alicia paga $200.0 por el servicio de Memeflix para 4 dispositivos
@@ -696,8 +723,8 @@ Diego paga $160.0 por el servicio de Thisney+
 Diego, llevas 7 meses usando Thisney+
 Te recomendamos: She-Hulk
 Erika paga $160.0 por el servicio de Thisney+
-Erika, llevas 6 meses usando Thisney+
-Te recomendamos: Moon Knight
+Erika, llevas 7 meses usando Thisney+
+Te recomendamos: She-Hulk
 Alicia paga $140.0 por el servicio de HVO Max
 Alicia, llevas 12 meses usando HVO Max
 Te recomendamos: Yellowjackets
@@ -708,14 +735,14 @@ Diego paga $140.0 por el servicio de HVO Max
 Diego, llevas 12 meses usando HVO Max
 Te recomendamos: Yellowjackets
 Erika paga $140.0 por el servicio de HVO Max
-Erika, llevas 5 meses usando HVO Max
-Te recomendamos: Barry
+Erika, llevas 6 meses usando HVO Max
+Te recomendamos: Westworld
 Saldos al final del mes 12:
 Alicia: $6750.0
 Bob: $50.0
 César: $1430.0
 Diego: $4610.0
-Erika: $7400.0
-Fausto: $4250.0
+Erika: $6900.0
+Fausto: $3530.0
 
 === FIN DE SIMULACIÓN ===

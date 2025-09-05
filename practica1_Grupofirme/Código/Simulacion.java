@@ -163,25 +163,32 @@ public class Simulacion {
         
         switch (mes) {
             case 3:
-               // Erika cancela HVO Max y contrata Thisney+
-                if (erika.getServiciosActivos().contains(hvo)) {
-                    erika.cancelarSuscripcion(hvo);
-                }
+                // Erika y contrata Thisney+
                 if (!erika.getServiciosActivos().contains(thisney)) {
                     erika.suscribirse(thisney, new ThisneyNormal());
                 }
-                // Fausto cancela sus suscripciones y contrata Memeflix para 1 dispositivo
+
+                // 
+                if (!fausto.getServiciosActivos().contains(memeflix)) {
+                    fausto.suscribirse(memeflix, new MemeflixUnDispositivo());
+                }
+               
+                break;
+            case 4:
+                
+                // Erika cancela HVO Max 
+                if (erika.getServiciosActivos().contains(hvo)) {
+                    erika.cancelarSuscripcion(hvo);
+                }
+
+                 // Fausto cancela sus suscripciones 
                 if (fausto.getServiciosActivos().contains(thisney)) {
                     fausto.cancelarSuscripcion(thisney);
                 }
                 if (fausto.getServiciosActivos().contains(hvo)) {
                     fausto.cancelarSuscripcion(hvo);
                 }
-                if (!fausto.getServiciosActivos().contains(memeflix)) {
-                    fausto.suscribirse(memeflix, new MemeflixUnDispositivo());
-                }
-                break;
-            case 4:
+
                 // Bob se da de baja en Thisney+ y HVO Max después de 3 meses
                 bob.cancelarSuscripcion(thisney);
                 bob.cancelarSuscripcion(hvo);
@@ -203,27 +210,32 @@ public class Simulacion {
                 // Diego se suscribe a Thisney+ en el sexto mes
                 diego.suscribirse(thisney, new ThisneyNormal());
 
-                // Fausto cancela todas sus suscripciones ANTES del cobro mensual
-                List<ServicioStreaming> serviciosFausto = new ArrayList<>(fausto.getServiciosActivos());
-                for (ServicioStreaming servicio : serviciosFausto) {
-                    fausto.cancelarSuscripcion(servicio);
-                }
-                   // Erika cancela todos sus servicios ANTES del cobro mensual
-                List<ServicioStreaming> serviciosErika = new ArrayList<>(erika.getServiciosActivos());
-                for (ServicioStreaming servicio : serviciosErika) {
-                    erika.cancelarSuscripcion(servicio);
-                }
+                
+                 
                 break;
                 
             case 7:
                 // César contrata Spootify premium en el séptimo mes
                 cesar.suscribirse(spootify, new SpootifyPremium());
+
+                  // Erika cancela todos sus servicios ANTES del cobro mensual
+                     List<ServicioStreaming> serviciosErika = new ArrayList<>(erika.getServiciosActivos());
+                      for (ServicioStreaming servicio : serviciosErika) {
+                        erika.cancelarSuscripcion(servicio);
+
+                }
+                // Fausto cancela todas sus suscripciones ANTES del cobro mensual
+                List<ServicioStreaming> serviciosFausto = new ArrayList<>(fausto.getServiciosActivos());
+                for (ServicioStreaming servicio : serviciosFausto) {
+                    fausto.cancelarSuscripcion(servicio);
+                }
                 
                 // Diego: suscribe a Memeflix, cambia a Spootify premium, cancela Momazon
                 diego.suscribirse(memeflix, new MemeflixUnDispositivo());
                 diego.cancelarSuscripcion(spootify);
                 diego.suscribirse(spootify, new SpootifyPremium());
                 diego.cancelarSuscripcion(momazon);
+
                 break;
                 
             case 10:
